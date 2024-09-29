@@ -18,13 +18,11 @@ from django.urls import path
 from . import views
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
-# ... the rest of your URLconf goes here ...
-
-urlpatterns += staticfiles_urlpatterns()
-
 urlpatterns = [
     path('', views.index),
     path('pack/', views.pack),
     path('music/', views.music),
     path('about/', views.about)
 ]
+
+urlpatterns += staticfiles_urlpatterns()
