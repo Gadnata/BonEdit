@@ -11,6 +11,3 @@ def music(request):
 
 def about(request):
 	return render(request, 'main/about.html')
-
-def navbar(request):
-	return render(request, 'main/navbar.html')
