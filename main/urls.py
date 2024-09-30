@@ -23,7 +23,6 @@ urlpatterns = [
     path('pack/', views.pack),
     path('music/', views.music),
     path('about/', views.about),
-    path('navbar/', views.navbar)
 ]
 
 urlpatterns += staticfiles_urlpatterns()
