@@ -24,7 +24,7 @@ const send = () => {
     })
     .then(data => {
       console.log('Success:', data);
-      window.open(data.result.link, '_blank')
+      open(data.result.link, '_blank')
     })
     .catch(error => {
       console.error('Fail:', error);
@@ -33,6 +33,5 @@ const send = () => {
 }
 
 explosion_pack_buy.addEventListener('click', () => {
-  console.log('click');
   send();
 })
