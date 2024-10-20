@@ -33,5 +33,6 @@ const send = () => {
 }
 
 explosion_pack_buy.addEventListener('click', () => {
-  send()
+  console.log('click');
+  send();
 })
