@@ -25,7 +25,7 @@ const send = () => {
     })
     .then(data => {
       console.log('Success:', data);
-      window.location = data.result.link, '_blank';
+      window.location = data.result.link;
     })
     .catch(error => {
       console.error('Fail:', error);
