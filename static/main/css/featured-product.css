@@ -1,0 +1,6 @@
+.descryption {
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+}
