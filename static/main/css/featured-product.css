@@ -1,8 +1,4 @@
-.block-featured-product {
-  position: relative;
-}
-
 .description {
-  position: absolute;
+  position: relative;
   text-align: center;
 }
