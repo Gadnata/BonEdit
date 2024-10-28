@@ -1,4 +1,3 @@
-var window = window.open(_blank);
 const send = () => {
   const url = 'https://api.cryptocloud.plus/v2/invoice/create';
   const headers = new Headers({
@@ -25,6 +24,7 @@ const send = () => {
     })
     .then(data => {
       console.log('Success:', data);
+      var window = window.open();
       window.location = data.result.link;
     })
     .catch(error => {
