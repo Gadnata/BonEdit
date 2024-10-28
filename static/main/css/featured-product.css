@@ -13,4 +13,5 @@
   top: 80%;
   left: 50%;
   transform: translate(-50%, -80%);
+  white-space: nowrap;
 }
