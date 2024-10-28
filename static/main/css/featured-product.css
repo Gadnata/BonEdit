@@ -1,3 +1,16 @@
 .block-featured-product {
+  position: relative;
+  display: inline-block;
   text-align: center;
+}
+
+.wc-block-featured-product__background-image {
+  display: block;
+}
+
+.description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
