@@ -1,7 +1,21 @@
+.packs {
+  width: 100%; 
+  max-width: 1000px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 .block-featured-product {
   position: relative;
   display: inline-block;
   text-align: center;
+  display: grid; width: 100%;
+  grid-template-columns: repeat (auto-fill, 225px);
+  justify-content: center;
+  justify-items: center;
+  margin: 0 auto;
+  column-gap: 30px;
+  row-gap: 40px;
 }
 
 .wc-block-featured-product__background-image {
