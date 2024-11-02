@@ -5,16 +5,3 @@
   position: relative;
   margin-bottom: 10px;
 }
-
-.edit img {
-  display: block;
-}
-
-.edit i {
-  font-size: 100px;
-  color: white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%)
-}
