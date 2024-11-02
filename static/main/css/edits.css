@@ -1,9 +1,14 @@
-.edits {
-  text-align: center;
+.edit {
+  position: relative;
 }
 
-.bi-play-circle {
+.edit img {
+  display: block;
+}
+
+.edit i {
+  position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
 }
