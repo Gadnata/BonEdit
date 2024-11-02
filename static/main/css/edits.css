@@ -4,6 +4,7 @@
 
 .edit {
   position: relative;
+  margin-bottom: 20px;
 }
 
 .edit img {
@@ -12,6 +13,7 @@
 
 .edit i {
   font-size: 100px;
+  color: white;
   position: absolute;
   top: 50%;
   left: 50%;
