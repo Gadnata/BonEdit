@@ -1,11 +1,11 @@
 .edit {
   position: relative;
-  text-align: center;
   margin-bottom: 10px;
 }
 
 .edit img {
   display: block;
+  text-align: center;
 }
 
 .edit i {
