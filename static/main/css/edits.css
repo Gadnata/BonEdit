@@ -1,3 +1,9 @@
 .edits {
   text-align: center;
 }
+
+.bi-play-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
