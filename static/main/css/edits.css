@@ -1,5 +1,7 @@
 .edit {
-  justify-content: center;
+  justify-items: center;
+  position: relative;
+  margin-bottom: 10px;
 }
 
 .edit img {
