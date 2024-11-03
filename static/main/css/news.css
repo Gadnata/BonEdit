@@ -1,15 +1,18 @@
-.news-group {
-  position: relative;
-}
-
 .news {
+  margin-top: 60px;
   display: grid;
   grid-template-columns: repeat(3, auto);
   gap: 10px;
   justify-content: center;
 }
 
+.news-group {
+  position: relative;
+}
+
 .new img {
+  width: 160px;
+  height: auto;
   float: left;
   margin-right: 10px;
 }
