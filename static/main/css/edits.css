@@ -1,6 +1,6 @@
 .edit {
   display: grid;
-  grid-template-columns: repeat(4, 300px);
+  grid-template-columns: repeat(minmax(1, 4), 300px);
   gap: 10px;
   justify-content: center;
   position: relative;
