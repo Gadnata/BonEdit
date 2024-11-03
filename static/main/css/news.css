@@ -16,7 +16,7 @@
 }
 
 .about-description {
-  transform: translate(0px, 40px);
+  transform: translate(0px, -40px);
 }
 
 .description {
