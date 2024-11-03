@@ -1,6 +1,6 @@
 .edits {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 276px);
+  grid-template-columns: repeat(auto-fit, 340px);
   gap: 10px;
   justify-content: center;
 }
