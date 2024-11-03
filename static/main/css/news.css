@@ -25,6 +25,10 @@
 
 .news-group {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .news-group h2 {
