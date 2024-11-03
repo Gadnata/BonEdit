@@ -1,7 +1,36 @@
-.edit {
+.edits {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 300px);
+  grid-template-columns: repeat(auto-fit, 276px);
   gap: 10px;
   justify-content: center;
-  position: relative;
+}
+
+@media (min-width: 576px) {
+  .edits {
+    grid-template-columns: repeat(auto-fit, 520px);
+  }
+}
+
+@media (min-width: 600px) {
+  .edits {
+    grid-template-columns: repeat(auto-fit, 240px);
+  }
+}
+
+@media (min-width: 769px) {
+  .edits {
+    grid-template-columns: repeat(auto-fit, 215px);
+  }
+}
+
+@media (min-width: 990px) {
+  .edits {
+    grid-template-columns: repeat(auto-fit, 300px);
+  }
+}
+
+@media (min-width: 1200px) {
+  .edits {
+    grid-template-columns: repeat(auto-fit, 276px);
+  }
 }
