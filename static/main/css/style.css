@@ -112,6 +112,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .h7 { margin: 0; padding: 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a, .h7 a { text-decoration: none; }
 h1 a:focus, h1 a:hover, h2 a:focus, h2 a:hover, h3 a:focus, h3 a:hover, h4 a:focus, h4 a:hover, h5 a:focus, h5 a:hover, h6 a:focus, h6 a:hover, .h1 a:focus, .h1 a:hover, .h2 a:focus, .h2 a:hover, .h3 a:focus, .h3 a:hover, .h4 a:focus, .h4 a:hover, .h5 a:focus, .h5 a:hover, .h6 a:focus, .h6 a:hover, .h7 a:focus, .h7 a:hover { text-decoration: none; }
 h1.-bold, h2.-bold, h3.-bold, h4.-bold, h5.-bold, h6.-bold, .h1.-bold, .h2.extra-bold, .h3.extra-bold, .h4.extra-bold, .h5.extra-bold, .h6.extra-bold, .h7.extra-bold { font-weight: 700; }
+
 .bold { font-weight: 500; }
 
 h1, .h1 { font-size: 26px; }
