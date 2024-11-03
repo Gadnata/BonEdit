@@ -27,5 +27,4 @@
   grid-template-columns: repeat(auto-fit, 316px);
   gap: 10px;
   justify-content: center;
-  position: relative;
 }

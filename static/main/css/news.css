@@ -1,3 +1,14 @@
+.news-group {
+  position: relative;
+}
+
+.news {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 10px;
+  justify-content: center;
+}
+
 .new img {
   float: left;
   margin-right: 10px;
