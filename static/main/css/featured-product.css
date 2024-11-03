@@ -24,7 +24,7 @@
 
 .packs__block-featured-product {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 300px);
+  grid-template-columns: repeat(auto-fit, 200px);
   gap: 10px;
   justify-content: center;
   position: relative;
