@@ -19,8 +19,12 @@
   margin-bottom: 20px;
 }
 
-.latest-news {
-  margin-top: 40px;
+@media (max-width: 990px) {
+    
+  .latest-news {
+    margin-top: 40px;
+  }
+
 }
 
 .news-group {
