@@ -11,3 +11,6 @@ def music(request):
 
 def about(request):
 	return render(request, 'main/about.html')
+
+def portfolio(request):
+	return render(request, 'main/portfolio.html')
