@@ -8,6 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>BonEdit 💀🎬</title>
 	<script src="{% static 'main/js/main.js' %}"></script>
+  <script src="{% static 'main/js/edit-popup.js' %}"></script>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 	<link rel="stylesheet" href="{% static 'main/css/style.css' %}">
   <link rel="stylesheet" href="{% static 'main/css/edits.css' %}">
@@ -43,8 +44,14 @@
 				
         <div class="edits">
           <div class="edit">
-            <img src="{% static 'main/img/edits/edit1.jpeg' %}">
-            <i class="bi bi-play-circle"></i>
+            <a class='open-edit1-popup'><img src="{% static 'main/img/edits/edit1.jpeg' %}">
+            <i class="bi bi-play-circle"></i></a>
+            <div class="edit-popup-bg">
+              <div class="edit-popup">
+                <a class='close-edit1-popup'></a>
+                <p>test</p>
+              </div>
+            </div>
           </div>
           <div class="edit">
             <img src="{% static 'main/img/edits/edit2.jpeg' %}">
