@@ -55,7 +55,9 @@
 .edit-popup-bg {
   position: fixed;
   background: rgba(0,0,0,0.8);
+  display: none;
 }
+
 .edit-popup {
   position: absolute;
   top: 50%;
@@ -64,4 +66,11 @@
   background: ■#ffffff;
   padding: 20px;
   transform: translate(-50%, -50%);
+  padding-top: 60px;
+}
+
+.close-edit1-popup {
+  position: absolute;
+  top: 30px;
+  right: 30px;
 }
