@@ -1,7 +1,7 @@
 .select-language {
   position: fixed;
   top: 30%;
-  transform: translateY(-50%);
+  transform: translateY(-30%);
   right: 0;
   width: 50px;
   height: 50px;
